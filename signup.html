@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+        <!-- <a href="welcome.html"><img class="logo" src="images/logo.png"></a>-->
+        <section class="header">
+        <div class="loogo"><img id="logo"src="Images/Loogo.png"></div>
+        <nav>
+           <div class="nav-links">
+               <ul>
+                   <li><a href="welcome.html">Home</a></li>
+                   <li><a href="about_us.html">About Us</a></li>
+                   <li><a href="login.html">Blogs</a></li>
+                   <li><a href="welcome.html">Contact</a></li>
+                   <!--<li><button class="login">Login</button></li>-->
+               </ul>
+           </div>
+        </nav>
+     </section>
+    
+     <section class="content">
+       <img class="hello_img" src="Images/signup.png">
+
+        <div class="forms">
+            <input type="checkbox" id="chk" aria-hidden="true">
+            <div class="signup">
+                <form action="dashboard.html">
+                    <label class="choice" for="chk" aria-hidden="true">Signup</label>
+                    <p>Signup to continue and enjoy all features</p>
+                    <input type="text" name="" placeholder="Enter your username" required="">
+                    <input type="email" name="" placeholder="Enter E-mail" required="">
+                    <input type="password" name="" placeholder="Enter your password" required="">
+                    
+                    <div class="radio-container">
+                        <input type="radio" name="reg_as" id="tenant" value="tenant" checked="checked">
+                        <label class="radio" for="tenant">Tenant</label>    
+                        <input type="radio" name="reg_as" id="landlord" value="landlord"> 
+                        <label class="radio" for="landlord">Landlord</label>
+                    </div>
+
+                    <a href="dashboard.html"><button type="submit">Signup</button></a>
+                </form>
+            </div>
+
+            <div class="login">
+                <form>
+                    <label class="choice" for="chk" aria-hidden="true">Login</label>
+                    <p>Login to continue and enjoy all features</p>
+                    <input type="email" name="" placeholder="Enter E-mail"  required="">
+                    <input type="password" name="" placeholder="Enter your password"  required="">
+                    <a href="dashboard.html"><button type="submit">Login</button></a>
+                    <p><a href="">Forgot Password ?</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
